@@ -4,7 +4,7 @@ Este es un proyecto para el curso de [Nombre del Curso]. El juego se puede ejecu
 
 ## Captura de Ejecución
 
-![Juego en ejecución](file://C:\Users\sergi\Downloads\Conway’s%20Game%20Of%20Life.gif?msec=1721841628204)
+![Juego en ejecución]('./Conway’s Game Of Life.gif')
 
 ## Instrucciones
 
