@@ -275,6 +275,7 @@ fn update(framebuffer: &Framebuffer) -> Framebuffer {
 fn initialize_pattern(framebuffer: &mut Framebuffer) {
     // Toad
     add_toad(framebuffer, 0, 0);
+    add_toad(framebuffer, 20, 0);
 
     // Beacon
     add_beacon(framebuffer);
@@ -284,11 +285,23 @@ fn initialize_pattern(framebuffer: &mut Framebuffer) {
     add_pulsar(framebuffer, 20, 50);
     add_pulsar(framebuffer, 70, 50);
     add_pulsar(framebuffer, 70, 20);
+    add_pulsar(framebuffer, 35, 5);
+    add_pulsar(framebuffer, 35, 80);
+    add_pulsar(framebuffer, 8, 40);
+    add_pulsar(framebuffer, 6, 70);
+    add_pulsar(framebuffer, 60, 30);
+    add_pulsar(framebuffer, 50, 50);
+    add_pulsar(framebuffer, 50, 80);
+    add_pulsar(framebuffer, 90, 90);
+    add_pulsar(framebuffer, 70, 40);
 
     //Weekender
     add_weekender(framebuffer, 20, 20);
+    add_weekender(framebuffer, 60, 60);
     // Blinker
     add_blinker(framebuffer, 20, 40);
+    add_blinker(framebuffer, 0, 0);
+    add_blinker(framebuffer, 30, 60);
     // Lwss
     add_lwss(framebuffer);
     // Mwss
@@ -298,12 +311,22 @@ fn initialize_pattern(framebuffer: &mut Framebuffer) {
     // Blocks
     add_block(framebuffer, 50, 50);
     add_block(framebuffer, 80, 20);
+    add_block(framebuffer, 80, 4);
+    add_block(framebuffer, 80, 80);
+    add_block(framebuffer, 0, 0);
 
     //Gliders
     add_glider(framebuffer, 0, 0);
     add_glider(framebuffer, 50, 2);
     add_glider(framebuffer, 60, 7);
+    add_glider(framebuffer, 60, 80);
+    add_glider(framebuffer, 50, 80);
+    add_glider(framebuffer, 50, 50);
+    add_glider(framebuffer, 80, 40);
+    add_glider(framebuffer, 70, 70);
+
     add_glider(framebuffer, 7, 59);
+    add_glider(framebuffer, 0, 40);
 
     add_glider(framebuffer, 0, 80);
 }
