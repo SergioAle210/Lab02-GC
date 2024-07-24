@@ -4,7 +4,7 @@ Este es un proyecto para el curso de [Nombre del Curso]. El juego se puede ejecu
 
 ## Captura de Ejecución
 
-![Juego en ejecución]('./Conway’s Game Of Life.gif')
+![Juego en ejecución]('Conways_game_of_life.gif')
 
 ## Instrucciones
 
